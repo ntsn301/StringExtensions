@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "StringExtensionsConsumer/1.0.0": {
+        "dependencies": {
+          "StringExtensions": "1.0.0-CI-20250402-012349"
+        },
+        "runtime": {
+          "StringExtensionsConsumer.dll": {}
+        }
+      },
+      "StringExtensions/1.0.0-CI-20250402-012349": {
+        "runtime": {
+          "lib/net8.0/StringExtensions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StringExtensionsConsumer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StringExtensions/1.0.0-CI-20250402-012349": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kpnpMsI+r6sk+Le2xt9Vw94h1cBfgu6tlx3gX5NjbbFUAIom2+A3YbmYZGUYr+hW+OxiB2f1PdnsXmtkEMNvjw==",
+      "path": "stringextensions/1.0.0-ci-20250402-012349",
+      "hashPath": "stringextensions.1.0.0-ci-20250402-012349.nupkg.sha512"
+    }
+  }
+}

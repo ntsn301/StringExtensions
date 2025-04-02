@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "StringExtensions/1.0.0-CI-20250402-012349": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/StringExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/StringExtensions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StringExtensions/1.0.0-CI-20250402-012349": {
+      "sha512": "kpnpMsI+r6sk+Le2xt9Vw94h1cBfgu6tlx3gX5NjbbFUAIom2+A3YbmYZGUYr+hW+OxiB2f1PdnsXmtkEMNvjw==",
+      "type": "package",
+      "path": "stringextensions/1.0.0-ci-20250402-012349",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/StringExtensions.dll",
+        "stringextensions.1.0.0-ci-20250402-012349.nupkg.sha512",
+        "stringextensions.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "StringExtensions >= 1.0.0-CI-20250402-012349"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\nnhem\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\nnhem\\source\\repos\\StringExtensionsConsumer\\StringExtensionsConsumer\\StringExtensionsConsumer.csproj",
+      "projectName": "StringExtensionsConsumer",
+      "projectPath": "C:\\Users\\nnhem\\source\\repos\\StringExtensionsConsumer\\StringExtensionsConsumer\\StringExtensionsConsumer.csproj",
+      "packagesPath": "C:\\Users\\nnhem\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nnhem\\source\\repos\\StringExtensionsConsumer\\StringExtensionsConsumer\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\nnhem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/tngu10330259/StringExtensionsDevOps/_packaging/StringExtensionsFeed/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/tngu1033Lab4/StringExtensionsDevOps/_packaging/DevOpsStringExtensionsFeed/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "StringExtensions": {
+            "target": "Package",
+            "version": "[1.0.0-CI-20250402-012349, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

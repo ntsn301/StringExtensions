@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "oS83HMijx6g=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nnhem\\source\\repos\\StringExtensionsConsumer\\StringExtensionsConsumer\\StringExtensionsConsumer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nnhem\\.nuget\\packages\\stringextensions\\1.0.0-ci-20250402-012349\\stringextensions.1.0.0-ci-20250402-012349.nupkg.sha512"
+  ],
+  "logs": []
+}
